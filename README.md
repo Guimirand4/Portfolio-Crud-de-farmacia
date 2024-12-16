@@ -1,0 +1,27 @@
+CRUD para Farmácias com Validação de Usuário (JWT)
+Este projeto é uma API Rest desenvolvida em Spring Boot que oferece um CRUD (Create, Read, Update, Delete) para gerenciar dados de produtos farmacêuticos. A aplicação também implementa autenticação e autorização de usuários através de JWT (JSON Web Token), utilizando Spring Security para garantir a proteção dos endpoints.
+
+Funcionalidades
+CRUD de Produtos Farmacêuticos
+
+Cadastrar novos produtos (POST).
+Listar todos os produtos ou buscar por ID (GET).
+Atualizar informações de produtos (PUT).
+Excluir produtos (DELETE).
+Autenticação e Autorização
+
+Validação de usuários através de JWT Tokens.
+Proteção dos endpoints contra acessos não autorizados.
+Controle de permissões com base no perfil do usuário.
+Documentação da API
+
+Integrada ao Swagger UI para facilitar a visualização e teste dos endpoints.
+Tecnologias Utilizadas
+Java (versão 17 ou superior)
+Spring Boot
+Spring Security
+JWT (JSON Web Token)
+Spring Data JPA
+Hibernate
+Banco de Dados MySQL
+Swagger UI
